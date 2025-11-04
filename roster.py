@@ -13,3 +13,8 @@ for player in roster:
 # Step 3: Import Pandas and create DataFrame with no header
 data = pd.DataFrame(roster)
 print(data)
+
+# Step 4: DataFrame with 'Last Name' header
+player = {'Last Name': roster}
+data = pd.DataFrame(player)
+print(data)
